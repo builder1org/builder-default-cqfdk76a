@@ -13,7 +13,10 @@ body {
   min-height: 100vh;
   background: #faf9f7;
   color: #1c1917;
-  line-height: 1.6;
+  line-height: 1.75;
+  font-feature-settings: "ss01" on;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a {
